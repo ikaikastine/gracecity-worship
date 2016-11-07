@@ -1,11 +1,11 @@
 var fs = require('fs');
 var path = require('path');
 var express = require('express');
-var people = require('./people');
+var songs = require('./songs');
 var app = express();
 var port = process.env.PORT || 8000;
 
-var personTemplate = fs.readFileSync(path.join(__dirname, 'templates', 'person.html'), 'utf8');
+var personTemplate = fs.readFileSync(path.join(__dirname, 'templates', 'songs.html'), 'utf8');
 
 // Serve static files from public/.
 app.use(express.static(path.join(__dirname, 'public')));
@@ -15,23 +15,23 @@ app.use(express.static(path.join(__dirname, 'public')));
  * the set of all available people by looping over the people and inserting
  * an HTML element representing each one.
  */
-app.get('/people', function (req, res) {
+app.get('/songs', function (req, res) {
 
   var content = "<html>";
   content += "<head>"
   content += "<meta charset='utf-8'>"
-  content += "<title>Express Dynamic Content Demo - People</title>"
+  content += "<title>Grace City Eugene - Worship Team</title>"
   content += "<link rel='stylesheet' href='/style.css'>"
   content += "</head>"
   content += "<body>"
   content += "<header>"
-  content += "<h1>Famous People</h1>"
+  content += "<h1>Songs</h1>"
   content += "</header>"
   content += "<main>"
 
-  Object.keys(people).forEach(function (person) {
+  Object.keys(songs).forEach(function (song) {
     content += "<div class='person'>";
-    content += "<p><a href='/people/" + person + "'>" + people[person].name + "</p>";
+    content += "<p><a href='/people/" + song + "'>" + songs[song].key + "</p>";
     content += "</div>";
   });
 

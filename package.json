@@ -1,0 +1,22 @@
+{
+  "name": "gracecity-worship",
+  "version": "1.0.0",
+  "description": "Website for the Grace City Worship team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikaikastine/gracecity-worship.git"
+  },
+  "author": "Kevin Stine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikaikastine/gracecity-worship/issues"
+  },
+  "homepage": "https://github.com/ikaikastine/gracecity-worship#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

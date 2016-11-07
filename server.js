@@ -2,6 +2,7 @@ var fs = require('fs');
 var path = require('path');
 var express = require('express');
 var songs = require('./songs');
+var dates = require('./dates')
 var app = express();
 var port = process.env.PORT || 8000;
 
@@ -15,7 +16,7 @@ app.use(express.static(path.join(__dirname, 'public')));
  * the set of all available people by looping over the people and inserting
  * an HTML element representing each one.
  */
-app.get('/songs', function (req, res) {
+app.get('/dates', function (req, res) {
 
   var content = "<html>";
   content += "<head>"
@@ -29,9 +30,11 @@ app.get('/songs', function (req, res) {
   content += "</header>"
   content += "<main>"
 
-  Object.keys(songs).forEach(function (song) {
+  Object.keys(dates).forEach(function (date) {
     content += "<div class='person'>";
-    content += "<p><a href='/people/" + song + "'>" + songs[song].key + "</p>";
+    content += "<p><a href='/people/" + date + "'>" + dates[date].name + "</p>";
+    content += "<p><a href='/people/" + date + "'>" + dates[date].dates + "</p>";
+
     content += "</div>";
   });
 

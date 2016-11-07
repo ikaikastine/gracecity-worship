@@ -1,0 +1,10 @@
+{
+  "november": {
+    "name": "November",
+    "dates": ["6", "13", "20", "27"]
+  },
+  "december": {
+    "name": "December",
+    "dates": ["4", "11", "18", "25"]
+  }
+}

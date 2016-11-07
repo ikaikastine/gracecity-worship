@@ -1,0 +1,41 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  background-color: #e5eefb;
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  background-color: #f07673;
+  color: #fff;
+}
+
+header h1 {
+  font-weight: 100;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 200;
+}
+
+a:hover {
+  background-color: #dedede;
+}
+
+.info,
+.person {
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid #333;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.info p,
+.person p {
+  margin: 0;
+}

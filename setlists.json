@@ -1,0 +1,78 @@
+{
+  "setList": {
+    "August": {
+      "date": ["21", "28"]
+    },
+    "September": {
+      "date": ["4", "11", "18", "25"]
+    },
+    "October": {
+      "date": ["2", "9", "16", "23", "30"]
+    }
+  },
+  "songList": {
+    "this_is_amazing_grace": {
+      "key": ["A"]
+    },
+    "i_belong_to_you": {
+      "key": ["A"]
+    },
+    "give_me_faith": {
+      "key": ["A"]
+    },
+    "all_im_after": {
+      "key": ["A"]
+    },
+    "closer": {
+      "key": ["C"]
+    },
+    "your_love_endures": {
+      "key": ["G"]
+    },
+    "your_royal_blood": {
+      "key": ["C"]
+    },
+    "nothing_holding_me_back": {
+      "key": ["G"]
+    },
+    "how_deep_the_fathers_love": {
+      "key": ["E"]
+    },
+    "no_longer_slaves": {
+      "key": ["G"]
+    },
+    "break_every_chain": {
+      "key": ["E"]
+    },
+    "one_thing_remains": {
+      "key": ["G"]
+    },
+    "freedom": {
+      "key": ["A"]
+    },
+    "your_grace_is_enough": {
+      "key": ["G"]
+    },
+    "you_are_good": {
+      "key": ["G"]
+    },
+    "only_king_forever": {
+      "key": ["D"]
+    },
+    "i_will_follow": {
+      "key": ["A"]
+    },
+    "in_christ_alone": {
+      "key": ["A"]
+    },
+    "unstoppable_god": {
+      "key": ["G"]
+    },
+    "ever_be": {
+      "key": ["D"]
+    },
+    "hopes_anthem": {
+      "key": ["B"]
+    }
+  }
+}

@@ -1,15 +1,4 @@
 {
-  "setList": {
-    "August": {
-      "date": ["21", "28"]
-    },
-    "September": {
-      "date": ["4", "11", "18", "25"]
-    },
-    "October": {
-      "date": ["2", "9", "16", "23", "30"]
-    }
-  },
   "songList": {
     "this_is_amazing_grace": {
       "key": ["A"]
@@ -48,7 +37,7 @@
       "key": ["G"]
     },
     "freedom": {
-      "key": ["A"]
+      "key": "A"
     },
     "your_grace_is_enough": {
       "key": ["G"]
